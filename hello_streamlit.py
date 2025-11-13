@@ -1,6 +1,7 @@
 import streamlit as st
-st.header('st.button')
-if st.button("Say hello"):
-    st.write("Why hello there")
+st.header('이름을 누르시오')
+if st.button("이윤행"):
+    st.write("안녕 이윤행")
 else:
-    st.write('Goodbye')
+
+    st.write('잘가')
